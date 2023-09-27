@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a place</h3>
+            <input name="city" class="city-input" type="text" placeholder="E.g  Delhi, London, Paris">
+            <div class="unit">
+                <label for="unit">Choose a temperature unit:</label>
+
+                <select id="unit">
+                    <option value="metric">Celcius</option>
+                    <option value="imperial">Fahrenheit</option>
+                    <option value="standard">Kelvin</option>
+                </select>
+            </div>
+            <button class="search-btn">Get Weather</button>
+            <div class="separate"></div>
+            <button class="search-loc-btn">Use current location</button>
+        </div>
+
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>****</h2>
+                    <h4>Temperature: ___</h4>
+                    <h4>Feels like: ___</h4>
+                    <h4>Wind: ___</h4>
+                    <h4>Humidity: ___</h4>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5-Days Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>***</h2>
+                        <h4>Temperature : ___</h4>
+                        <h4>Wind : ___</h4>
+                        <h4>Humidity : ___</h4>
+                    </li>
+                    <li class="card">
+                        <h3>***</h2>
+                        <h4>Temperature : ___</h4>
+                        <h4>Wind : ___</h4>
+                        <h4>Humidity : ___</h4>
+                    </li>
+                    <li class="card">
+                        <h3>***</h2>
+                        <h4>Temperature : ___</h4>
+                        <h4>Wind : ___</h4>
+                        <h4>Humidity : ___</h4>
+                    </li>
+                    <li class="card">
+                        <h3>***</h2>
+                        <h4>Temperature : ___</h4>
+                        <h4>Wind : ___</h4>
+                        <h4>Humidity : ___</h4>
+                    </li>
+                    <li class="card">
+                        <h3>***</h2>
+                        <h4>Temperature : ___</h4>
+                        <h4>Wind : ___</h4>
+                        <h4>Humidity : ___</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
